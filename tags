@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+Author Information	README.md	/^Author Information$/;"	s
+Dependencies	README.md	/^Dependencies$/;"	s
+Enable znc on startup	tasks/main.yml	/^- name: Enable znc on startup$/;"	p
+Example Playbook	README.md	/^Example Playbook$/;"	s
+Install necessary packages	tasks/main.yml	/^- name: Install necessary packages$/;"	p
+License	README.md	/^License$/;"	s
+Requirements	README.md	/^Requirements$/;"	s
+Role Name	README.md	/^Role Name$/;"	c
+Role Variables	README.md	/^Role Variables$/;"	s
+Start znc	tasks/main.yml	/^- name: Start znc$/;"	p

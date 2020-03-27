@@ -1,0 +1,24 @@
+---
+# tasks file for ansible-znc
+- name: Install necessary packages
+  pacman:
+    name:
+      - znc
+    state: latest
+
+# - name: Copy main nginx config
+#   copy:
+#     src: nginx.conf
+#     dest: /etc/nginx/nginx.conf
+#     mode: '0644'
+
+- name: Enable znc on startup
+  systemd:
+    name: znc
+    enabled: yes
+    masked: no
+
+- name: Start znc
+  systemd:
+    state: started
+    name: znc
